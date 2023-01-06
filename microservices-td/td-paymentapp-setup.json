@@ -1,6 +1,6 @@
 {
-  "taskRoleArn": "arn:aws:iam::007350209865:role/ecs-project-cluster-ECSTaskExecutionRole-GQ20J37G817L",
-  "executionRoleArn": "arn:aws:iam::007350209865:role/ecs-project-cluster-ECSTaskExecutionRole-GQ20J37G817L",
+  "taskRoleArn": "arn:aws:iam::820776451548:role/ecsTaskExecutionRole",
+  "executionRoleArn": "arn:aws:iam::820776451548:role/ecsTaskExecutionRole",
   "containerDefinitions": [
       {
         "environment": [
@@ -10,7 +10,8 @@
           }
         ],
         "memory": 128,
-        "image": "awanmbandi/paymentapp:latest",
+        "image": "pauloclouddev/operaapp
+        :latest",
         "essential": true,
         "portMappings": [
               {

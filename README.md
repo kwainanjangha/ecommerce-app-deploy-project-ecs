@@ -8,7 +8,7 @@
 cd 1-Setup
 aws ecs register-task-definition  --cli-input-json file://td-productapp-setup.json --region us-west-2
 aws ecs register-task-definition  --cli-input-json file://td-paymentapp-setup.json --region us-west-2
-aws ecs register-task-definition  --cli-input-json file://td-frontendapp.json --region us-west-2
+aws ecs register-task-definition  --cli-input-json file://td-frontendapp-setup.json --region us-west-2
 ```
 
 * create ECS service for both, _productapp_ and _paymentapp_ both without public URL assignment and without LB
